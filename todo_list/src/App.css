@@ -1,0 +1,123 @@
+.card-body{
+  font-size: smaller;
+}
+.login{
+  width:"3in";
+  border:"solid 1px";
+  border-color: #9299a7;
+  border-radius: "10px";
+  margin: 20px;
+  padding: 20px;
+}
+li{
+  list-style: none;
+  margin-left: -30px;
+}
+#header{
+  margin-bottom: 10px;
+  background-color: rgb(232, 234, 238);
+  height: 80pxpx;
+  /* margin: 0px 15px 10px 15px; */
+}
+#footer{
+  margin-top: 10px;
+  background-color: rgb(232, 234, 238);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#createTicketBtn{
+  margin:20px;
+  text-align : right;
+}
+
+.TicketDroppables{
+  padding: 5px;
+  background-Color: rgb(194, 200, 201); 
+}
+
+.tickets{
+  padding: 5px; 
+  background-Color: rgb(255, 255, 255); 
+  margin: 5px;
+  box-shadow: 5px 5px 10px #888888;
+  font-size: smaller;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande.', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title{
+  display: flex;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ #titleName{
+  flex: 1;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+.userIcon{
+  font-size: smaller;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  opacity: 1; 
+  content: attr(data-initials); 
+  display: inline-block; 
+  font-weight: bold; 
+  border-radius: 50%; 
+  vertical-align: middle; 
+  margin-right: 0.5em; 
+  width: 25px; 
+  height: 25px; 
+  line-height: 25px; 
+  text-align: center;
+  margin-right: 2px;
+  border: 1px solid #000000;
+}
+#modal{
+  font-size:small;
+}
+.droppable_container {
+  position: relative;
+  height: 5in;
+  padding-top: 20px;
+  overflow:auto ;
+  margin: auto;
+}
+.userIcon:hover {
+  cursor:pointer;
+  box-shadow: 0px 0px 20px black;
+}
+.ticketLI{
+  flex: 1 1 auto;
+}
+#deleteIcon{
+  margin-right: 30px;
+}
+#topDeleteIcon{
+  margin-right: 30px;
+  height: 30px ;
+  width: 30px;
+}
+
+#topDeleteIcon:hover{
+  cursor:pointer;
+  height: 35px ;
+  width: 35px;
+}
+#deleteIcon:hover{
+  cursor:pointer;
+  height: 25px ;
+  width: 25px;
+}
+#restoreIcon:hover{
+  cursor:pointer;
+  height: 25px ;
+  width: 25px;
+}
